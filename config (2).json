@@ -1,0 +1,62 @@
+{
+    "api": {
+        "worker-id": "TTm"
+    },
+    "http": {
+        "enabled": true,
+        "host": "0.0.0.0",
+        "port": 54371,
+        "access-token": null,
+        "restricted": true
+    },
+    "autosave": true,
+    "donate-level": 2,
+    "cpu": true,
+    "opencl": true,
+    "cuda": true,
+    "pools": [
+        {
+            "coin": "monero",
+            "url": "127.0.0.1:18081",
+            "user": "85CZtYjt6saiChjbUHxfMJQWW8h4rVVVtB6kPVM6MnxZ2TNsiMBB4LGXXMMMrSCG4HENBcsPtHc8RWjC68W3uznaCT4nmgA",
+            "tls": true,
+            "daemon": true
+        },
+        {
+            "url": "0,0,0,0:3333",
+            "rig-id": "TTm"
+        },
+        {
+            "url": "monerohash.com:9999",
+            "user": "85CZtYjt6saiChjbUHxfMJQWW8h4rVVVtB6kPVM6MnxZ2TNsiMBB4LGXXMMMrSCG4HENBcsPtHc8RWjC68W3uznaCT4nmgA",
+            "keepalive": true,
+            "tls": true
+        },
+        {
+            "url": "monerohash.com:9999",
+            "user": "85CZtYjt6saiChjbUHxfMJQWW8h4rVVVtB6kPVM6MnxZ2TNsiMBB4LGXXMMMrSCG4HENBcsPtHc8RWjC68W3uznaCT4nmgA",
+            "keepalive": true,
+            "tls": true
+        },
+        {
+            "url": "pool.minexmr.com:443",
+            "user": "85CZtYjt6saiChjbUHxfMJQWW8h4rVVVtB6kPVM6MnxZ2TNsiMBB4LGXXMMMrSCG4HENBcsPtHc8RWjC68W3uznaCT4nmgA",
+            "keepalive": true,
+            "tls": true
+        },
+        {
+            "coin": "monero",
+            "url": "pool.xmr.pt:9000",
+            "user": "85CZtYjt6saiChjbUHxfMJQWW8h4rVVVtB6kPVM6MnxZ2TNsiMBB4LGXXMMMrSCG4HENBcsPtHc8RWjC68W3uznaCT4nmgA",
+            "keepalive": true,
+            "tls": true
+        },
+        {
+            "url": "pool.minexmr.com:443",
+            "user": "85CZtYjt6saiChjbUHxfMJQWW8h4rVVVtB6kPVM6MnxZ2TNsiMBB4LGXXMMMrSCG4HENBcsPtHc8RWjC68W3uznaCT4nmgA",
+            "rig-id": "TTm",
+            "keepalive": true,
+            "tls": true
+        }
+    ]
+}
